@@ -1,0 +1,341 @@
+/* === IMPORTAÇÃO DE FONTES */
+
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+/*
+Fontes Disponíveis:
+// Sugiro usar esta 
+font-family: "Urbanist", sans-serif; 
+font-family: "Fredoka", sans-serif;
+font-family: "Epilogue", sans-serif;
+font-family: "Nunito", sans-serif;
+font-family: "Oswald", sans-serif;
+*/
+/* ==========================*/
+
+/* ==== FORMATAÇÃO GERAL === */
+html {
+  font-size: clamp(1rem, 2vw + 0.8rem, 3rem);
+  background-color: #e9eaf8;
+}
+
+/* === header === */
+
+header {
+  font-family: "Urbanist", sans-serif;
+  text-align: center;
+  padding: 3vw 2vw 3vw 2vw;
+}
+
+header a .logo {
+  font-size: 6vw;
+}
+
+header ul {
+  padding: 4vw;
+}
+
+header nav ul li {
+  padding: 8px;
+  font-size: 4vw;
+}
+
+header nav ul li .contact {
+  background-color: #747ed1;
+  padding: 1vw 3vw 1vw 3vw;
+  border-radius: 3vw;
+  color: white;
+}
+
+/* === banner === */
+
+section.banner {
+  font-family: "Fredoka", sans-serif;
+  text-align: center;
+  background-color: #51225e;
+  margin: 3vw 1vw 3vw 1vw;
+  padding: 15vw 15vw 15vw 15vw;
+  border-radius: 2vw;
+  color: white;
+}
+
+section.banner h1 {
+  font-size: 30px;
+  padding: 2vw 3vw 2vw 3vw;
+}
+
+section.banner p {
+  font-size: 17px;
+}
+
+/* === section web design === */
+
+section.webdesign {
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  margin-top: 8vw;
+  padding: 10vw 15vw 10vw 15vw;
+  border-radius: 2vw;
+  margin: 10vw 1vw 3vw 1vw;
+}
+
+section.webdesign div.imagem {
+  width: 450px;
+  padding: 2vw 4vw 2vw 2vw;
+}
+
+section.webdesign h3 {
+  font-family: "Fredoka", sans-serif;
+  font-size: 30px;
+  padding: 0vw 2vw 2vw 2vw;
+}
+
+section.webdesign p {
+  font-family: "Fredoka", sans-serif;
+  font-size: 25px;
+  padding: 1vw 2vw 3vw 2vw;
+  color: rgb(109, 108, 108);
+  margin-bottom: 2vw;
+}
+
+section.webdesign a {
+  font-family: "Fredoka", sans-serif;
+  background-color: #e9eaf8;
+  color: #747ed1;
+  font-size: 22px;
+  padding: 2vw 3vw 2vw 3vw;
+  border-radius: 5vw;
+}
+
+/* === section processo === */
+
+section.processo {
+  font-family: "Fredoka", sans-serif;
+  text-align: center;
+  background-color: white;
+  padding: 7vw 5vw 5vw 5vw;
+  border-radius: 3vw;
+  margin: 10vw 1vw 3vw 1vw;
+}
+
+section.processo img {
+  padding-bottom: 50px;
+}
+
+section.processo h2 {
+  font-weight: 600;
+  padding: 2vw 2vw 2vw 2vw;
+}
+
+section.processo span {
+  color: #747ed1;
+  border-bottom: solid 2px #747ed1;
+}
+
+section.processo ul li {
+  padding: 2vw 2vw 2vw 2vw;
+}
+
+section.processo ul li img {
+  padding-top: 2vw;
+  padding-bottom: 5px;
+}
+
+section.processo ul li h4 {
+  font-size: 25px;
+  padding: 2px 2px 10px 2px;
+}
+
+section.processo ul li p {
+  color: rgb(107, 106, 106);
+  font-size: 20px;
+}
+
+/* === footer === */
+
+footer {
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+  text-align: center;
+  color: white;
+  background-color: #21262c;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+footer p {
+  font-size: 18px;
+}
+
+footer ul {
+  padding-left: 40vw;
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+
+footer ul li {
+  align-items: center;
+}
+
+/* MEDIA QUERY - DESKTOP */
+@media screen and (min-width: 600px) {
+  header {
+    font-family: "Urbanist", sans-serif;
+    justify-content: center;
+  }
+
+  header .logo {
+    font-size: 40px;
+    text-align: left;
+    padding-right: 30vw;
+  }
+
+  header nav ul {
+    padding-top: 3vw;
+    display: flex;
+    gap: 3vw;
+  }
+
+  header nav ul li {
+    font-size: 25px;
+    padding-left: 1vw;
+  }
+
+  /* === banner === */
+
+  section.banner {
+    font-family: "Fredoka", sans-serif;
+    text-align: center;
+    background-color: #51225e;
+    margin: 1vw 2vw 3vw 3vw;
+    padding: 10vw 10vw 10vw 10vw;
+    border-radius: 2vw;
+    color: white;
+  }
+
+  section.banner h1 {
+    font-size: 50px;
+    padding: 2vw 3vw 2vw 3vw;
+  }
+
+  section.banner p {
+    font-size: 25px;
+  }
+
+  /* === section web design === */
+
+  section.webdesign {
+    display: flex;
+    padding: 10vw 10vw 10vw 10vw;
+  }
+
+  section.webdesign div.imagem {
+    width: 50%;
+    padding: 2vw 4vw 2vw 2vw;
+  }
+
+  section.webdesign .texto{
+    text-align: left;
+    width: 50%;
+  }
+
+  section.webdesign h3 {
+    font-family: "Fredoka", sans-serif;
+    font-size: 30px;
+    padding: 0vw 2vw 2vw 2vw;
+  }
+
+  section.webdesign p {
+    font-family: "Fredoka", sans-serif;
+    font-size: 25px;
+    padding: 1vw 2vw 3vw 2vw;
+    color: rgb(109, 108, 108);
+  }
+
+  section.webdesign a {
+    font-family: "Fredoka", sans-serif;
+    background-color: #e9eaf8;
+    color: #747ed1;
+    font-size: 22px;
+    padding: 1.2vw 2vw;
+    border-radius: 3vw;
+  }
+
+  /* === section processo === */
+
+  section.processo {
+    font-family: "Fredoka", sans-serif;
+    text-align: center;
+    background-color: white;
+    padding: 10vw 10vw 10vw 10vw;
+    border-radius: 3vw;
+    margin: 10vw 1vw 3vw 1vw;
+  }
+
+  section.processo img {
+    padding-bottom: 50px;
+  }
+
+  section.processo h2 {
+    font-size: 45px;
+    font-weight: 600;
+    padding: 2vw 2vw 2vw 2vw;
+  }
+
+  section.processo span {
+    color: #747ed1;
+    border-bottom: solid 2px #747ed1;
+  }
+
+  section.processo ul{
+    display: flex;
+    padding-left: 4vw;
+  }
+
+  section.processo ul li {
+    padding: 2vw 2vw 2vw 2vw;
+  }
+
+  section.processo ul li img {
+    padding-top: 2vw;
+    padding-bottom: 5px;
+  }
+
+  section.processo ul li h4 {
+    font-size: 27px;
+    padding: 2px 2px 10px 2px;
+  }
+
+  section.processo ul li p {
+    color: rgb(107, 106, 106);
+    font-size: 22px;
+  }
+
+  /* === footer === */
+
+  footer {
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    text-align: center;
+    color: white;
+    background-color: #21262c;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  footer p {
+    font-size: 23px;
+  }
+
+  footer ul {
+    padding-left: 46vw;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+  }
+
+  footer ul li {
+    align-items: center;
+  }
+}

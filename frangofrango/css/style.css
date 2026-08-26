@@ -1,0 +1,132 @@
+/* === IMPORTAÇÃO DE FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap');
+/*
+Follow - font-family: "Fredoka", sans-serif;
+Medu - Oswald
+*/
+/* ==========================*/
+
+/* ==== FORMATAÇÃO GERAL === */
+html{
+    font-size: clamp(1rem, 2vw + 0.8rem, 3rem);
+    font-family: "Epilogue", sans-serif;
+}
+h1{
+    font-family: "Nunito", sans-serif;
+}
+h2,h3,h4,h5,h6{
+    font-family: "Oswald", sans-serif;
+}
+header{
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    padding: 5vw 5vw 5vw 5vw;
+}
+header .us{
+    background-color: #FFC222 ;
+    padding: 2vw 4vw 2vw 4vw;
+    border-radius: 10px ;
+    color: white;
+    display: inline-block;
+}
+header ul li{
+    padding: 2vw 2vw 2vw 2vw;
+}
+section.frango{
+    text-align: center;
+    background-color:  #f5e4e4 ;
+    padding-top: 10vw;
+}
+section.frango h1{
+    font-size: 6.5vw;
+    font-weight: 600;
+    padding: 3vw 2vw 3vw 2vw;
+}
+section.frango p{
+    padding: 3vw;
+    color: rgb(68, 66, 66);
+    font-size: 3.5vw;
+}
+section.frango h4{
+    background-color: #ED274B;
+    color: white;
+    border-radius: 40vw;
+    padding: 10px 20px 10px 20px;
+    margin: 4vw 4vw 4vw 4vw;
+    display: inline-block;
+    font-weight: 500;
+}
+section.popular{
+    background-color: #e8eef8;
+    text-align: center;
+    padding: 5vw;
+}
+section.popular h4{
+    color: #00A149;
+    padding: 5vw 0 3vw 0;
+}
+section.popular h2{
+    font-size: 8vw;
+    font-weight: 600;
+    padding: 6vw;
+}
+section.popular ul li{
+    background-color: white;
+    border-radius: 6vw;
+    margin: 3vw;
+    padding: 15vw 15vw 10vw;
+    margin: 5vw 10vw 5vw 10vw;
+}
+section.popular h5{
+    font-size: 7vw;
+    font-weight: 500;
+    padding-bottom: 2vw;
+    display: inline-block;
+    border-bottom: solid #FFD40D;
+}
+section.popular h6{
+    color: #FFD40D;
+}
+section.follow{
+    text-align: center;
+    padding-top: 15vw;
+}
+section.follow h2{
+   font-size: 6vw; 
+   padding: 4vw;
+}
+section.follow p{
+    font-size: 20px;
+    color: rgb(68,66,66);
+    padding: 8vw 0 8vw 0;
+}
+section.follow ul li{
+    padding: 5vw;
+}
+footer{
+    background-color:  #e8eef8;
+}
+footer p{
+    text-align: left;
+    padding: 5vw 10vw 5vw 10vw;
+    font-family: "Fredoka", sans-serif;
+    font-size: 3vw;
+}
+footer span{
+    color: #ED274B;
+}
+
+
+
+
+
+
+/* MEDIA QUERY - DESKTOP */
+@media  screen and (min-width: 600px) {
+    header ul li.imagem{
+        max-width: 150%;
+    }
+    header ul{
+        display: flex;
+    }
+}
