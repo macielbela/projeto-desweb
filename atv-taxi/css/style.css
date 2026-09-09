@@ -9,6 +9,8 @@ html {
   font-style: normal;
 }
 
+   /* === header === */
+
 header nav{
   text-align: center;
   padding: 3vw 0 0 0;
@@ -34,6 +36,37 @@ header nav ul li a.btn {
   display: inline-block;
 }
 
+   /* === banner === */
+
+   section.banner{
+    background: url(../images/background-banner.png)no-repeat;
+    background-size: 100% auto;
+    padding: 7vw 5vw 7vw 5vw;
+    margin: 5vw 0 5vw 0;
+   }
+
+   section.banner div.img{
+    display: none;
+   }
+
+   section.banner div.text h2{
+    font-size: 1.5rem;
+    -webkit-text-stroke: 0.8px;
+   }
+
+   section.banner div.text p{
+    padding: 2vw 0 2vw 0;
+    font-size: 20px;
+    color: rgb(85, 82, 82);
+   }
+   section.banner div.text p a{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding: 0px 10px 0px 10px;
+    border-radius: 1vw;
+    display: inline-block;
+   }
+
 
 
 @media only screen and (min-width: 768px) {
@@ -52,4 +85,33 @@ header nav ul li a.btn {
   header{
     padding: 2px;
   }
+
+  section.banner{
+    display: flex;
+    align-items: center;
+  }
+
+  section.banner div.text{
+    padding-left: 5vw;
+  }
+
+  section.banner div.text h2{
+    font-size: 2.5vw;
+  }
+
+  section.banner div.img{
+    display: block;
+    padding-left: 10vw;
+  }
+
+  section.banner div.img img{
+    width: 84%;
+  }
+
+  section.banner div.text p a{
+    border-radius: 0.8vw;
+    font-size: 1.3vw;
+    padding: 1vw 2vw 1vw 2vw;
+  }
+
 } 
