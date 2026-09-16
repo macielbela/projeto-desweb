@@ -59,6 +59,7 @@ header nav ul li a.btn {
     font-size: 20px;
     color: rgb(85, 82, 82);
    }
+
    section.banner div.text p a{
     color: white;
     background-color: rgb(0, 0, 0);
@@ -67,9 +68,63 @@ header nav ul li a.btn {
     display: inline-block;
    }
 
+   /* === section ready === */
+
+   section.ready div.img img{
+    display: none;
+   } 
+   
+   section.ready {
+    text-align: center;
+    padding: 3vw 5vw 3vw 5vw;
+   }
+
+   section.ready h2{
+    font-weight: 600;
+    font-size: 1.7rem;
+    padding: 10px 0 10px 0;
+   }
+
+   section.ready p{
+    color: grey;
+    font-size: 0.9rem;
+   }
+   
+   section.ready div.lista ul li{
+    padding: 2vw;
+    margin: 10px 0 10px 0;
+   }
+
+   section.ready div.lista ul li h3{
+    font-size: 1.1rem;
+    font-weight: 600;
+   }
+
+   /* === section download === */
+
+   section.download{
+    background-color: #FBBC05;
+    border-radius: 10px;
+    margin: 3vw 5vw 3vw 5vw;
+    color: white;
+    padding: 10px;
+   }
+
+   section.download h2{
+    font-size:1.7rem;
+    font-weight: 700;
+    padding: 0 0 20px 0;
+   }
+
+
+
+
+
 
 
 @media only screen and (min-width: 768px) {
+
+  /* === header === */
 
   header nav{
     display: flex;
@@ -86,6 +141,8 @@ header nav ul li a.btn {
     padding: 2px;
   }
 
+  /* === section banner === */
+
   section.banner{
     display: flex;
     align-items: center;
@@ -96,7 +153,7 @@ header nav ul li a.btn {
   }
 
   section.banner div.text h2{
-    font-size: 2.5vw;
+    font-size: 2rem;
   }
 
   section.banner div.img{
@@ -105,7 +162,7 @@ header nav ul li a.btn {
   }
 
   section.banner div.img img{
-    width: 84%;
+    width: 90%;
   }
 
   section.banner div.text p a{
@@ -114,4 +171,40 @@ header nav ul li a.btn {
     padding: 1vw 2vw 1vw 2vw;
   }
 
+  /* === section ready === */
+
+  section.ready div.img img{
+    display: block;
+  }
+
+  section.ready > p{
+    padding: 0 30% 0 30%;
+  }
+
+  section.ready div.lista ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 60vw;
+  }
+
+  section.ready div.lista ul li{
+    width: 40%;
+  }
+
+  section.ready > div{
+    gap: 10vw;    
+    display:flex;
+    justify-content: center;                                                                                                                                                                                                
+  }
+
+  /* === section download === */
+
+  section.download{
+    padding: 3vw;
+  }
+
+  section.download p{
+    width: 35%;
+  }
 } 
