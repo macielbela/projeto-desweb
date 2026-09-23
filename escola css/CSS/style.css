@@ -1,0 +1,107 @@
+   /* === css geral === */
+
+
+   html {
+       font-size: clamp(1rem, calc(0.5rem + 1vw), 3rem);
+       font-family: "Montserrat", sans-serif;
+   }
+
+   h2 {
+       font-size: 2.5rem;
+       font-weight: 550;
+   }
+
+   h3 {
+       color: #96bb7c;
+       margin: 5vw 0vw 5vw 0vw;
+       font-size: 1.2rem;
+   }
+
+   .btn {
+       background-color: #96bb7c;
+       color: white;
+       padding: 4px 10px 4px 10px;
+       border-radius: 7px;
+       margin: 7px;
+   }
+
+   .btn-border {
+       color: #96bb7c;
+       padding: 4px 10px 4px 10px;
+       border-radius: 7px;
+       border: 2px solid #96bb7c;
+   }
+
+   header {
+       background-color: #f4d2d4;
+       display: flex;
+       justify-content: space-between;
+       padding: 5vw 10vw 5vw 10vw;
+   }
+
+   header nav ul {
+       display: flex;
+       justify-content: space-between;
+       gap: 16px;
+       font-size: 1rem;
+   }
+
+
+   /* === banner === */
+
+
+   section.banner {
+       background-color: #f4d2d4;
+       padding: 5vw 10vw 0vw 10vw;
+       display: flex;
+       gap: 1vw;
+   }
+
+   section.banner h3 {
+       margin: 10vw 0vw 5vw 0vw;
+   }
+
+   section.banner p {
+       font-size: 2.3vw;
+       margin: 2vw 0vw 2vw 0vw;
+   }
+
+   section.banner p a.btn {
+       margin: 0vw 1vw 0vw 0vw;
+   }
+
+
+   /* === team === */
+
+
+   section.team {
+       padding: 5vw 10vw 0vw 10vw;
+   }
+
+   section.team h2 {
+       font-size: 1.5rem;
+       margin: 1vw 0vw 1vw 0vw;
+   }
+
+   section.team h4 {
+       font-weight: 600;
+       font-size: 2.3vw;
+   }
+
+   section.team p {
+       font-size: 2vw;
+       padding: 2vw 0 2vw 0;
+   }
+
+   section.team ul {
+       display: flex;
+       justify-content: center;
+       gap: 30px;
+   }
+   section.team ul li{
+    width: 25%;
+    background-color: #ECF0E8;
+    text-align: center;
+    font-size: 0.8vw;
+    margin: 1vw 1vw 1vw 1vw;
+   }

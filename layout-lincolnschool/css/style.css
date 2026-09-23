@@ -1,0 +1,156 @@
+/* CSS geral*/
+html{
+    font-size: clamp(1rem, calc(0.5rem + 2vw), 1.625rem);
+    font-family: "Gowun Batang", serif;
+}
+
+    menu nav ul li a {
+        color: black;
+        text-decoration: none;
+    }
+/* ============================= header =========================== */
+header nav ul li{
+    text-align: left;
+    padding: 5vw 5vw 5vw 5vw;
+    font-size: 4vw;
+    border-bottom: 0.5px solid grey;
+}
+section.inicio{
+    text-align: center;
+    padding: 2.5vw 0 2.5vw 0;
+}
+
+section.inicio div{
+    background-color:#F6F0E4;
+    color: black;
+    font-size:4.8vw;
+    padding: 24px 16px 24px 16px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 6vw 3vw 6vw 3vw;
+}
+section.lincoln h1{
+    text-align: center;
+    font-size: 2.7rem;
+    padding: 5vw 5vw 5vw 5vw;
+}
+section.lincoln p{
+    font-family: "Rethink Sans", sans-serif;
+    text-align: center;
+    font-size: 4vw;
+    padding: 3vw 0 3vw 0;
+}
+section.lincoln h1{
+    padding: 0 2vw 0 2vw;
+}
+section.what h2{
+    text-align: center;
+    font-size: 2.7rem;
+    padding: 5vw 0 5vw 0;
+}
+section.what h3{
+    font-family: "Rethink Sans", sans-serif;
+    text-align: center;
+    font-size: 4.5vw;
+    padding: 7vw 7vw 7vw 7vw;
+}
+section.what p{
+    text-align: center;
+    font-size: 5.5vw;
+    padding: 7vw 7vw 7vw 7vw;
+}
+section.what h3 {
+    text-align: center;
+    font-family: "Rethink Sans", sans-serif;
+    font-size: 4.5vw;
+    padding: 2vw 7vw 2vw 7vw;
+}
+section.what p span{
+    font-family: "Rethink Sans", sans-serif;
+    font-size: 4vw;
+    text-align: center;
+}
+section.who h3{
+    font-family: "Rethink Sans", sans-serif;
+
+}
+section.who p span{
+    font-family: "Rethink Sans", sans-serif;
+    font-size: 4vw;
+    text-align: center;
+    padding: 2vw 2vw 2vw 2vw;
+}
+section.when p span{
+    font-family: "Rethink Sans", sans-serif;
+    font-size: 4vw;
+    text-align: center;
+}
+section.where h3{
+     font-family: "Rethink Sans", sans-serif;
+     font-size: 4vw;
+}
+section.where p img{
+    text-align: center;
+    padding: 5vw 5vw 5vw 5vw;
+}
+section.latestnews{
+    text-align: center;
+}
+section.latestnews h2 {
+    font-size: 9vw;
+}
+section.latestnews ul li{
+    border: 1px solid rgb(190, 189, 189);
+    border-radius: 9px;
+    padding: 6vw 6vw 6vw 6vw;
+    margin: 5vw;
+}
+section.latestnews ul li h2{
+    font-family: "Rethink Sans", sans-serif;
+    font-size: 3vw;
+    padding: 4.5vw 0 4.5vw 0;
+}
+section.latestnews ul li h3{
+    font-size: 4.8vw;
+    padding: 3vw 0 3vw 0;
+}
+section.latestnews ul li p{
+    font-family: "Rethink Sans", sans-serif;
+    color: rgb(73, 73, 73);
+    padding: 5vw 0vw 5vw 0vw;
+}
+section.latestnews ul li.johnny h2{
+    font-size: 3vw;
+}
+section.latestnews ul li.johnny p{
+    font-family: "Rethink Sans", sans-serif;
+    color: rgb(114, 112, 112);
+}
+section.regional{
+    text-align: center;
+}
+section.regional h2{
+    font-size: 9vw;
+    padding: 4vw 4vw 4vw 4vw;
+}
+section.regional p{
+    font-family: "Rethink Sans", sans-serif;
+    font-size:3.5vw;
+    color: rgb(99, 98, 98);
+    padding-right: 16vw;
+}
+section.regional h3{
+    font-family: "Rethink Sans", sans-serif;
+    padding: 5vw 0vw 5vw 0vw;
+}
+section.regional ul li{
+    font-size: 5vw;
+    padding: 5vw 5vw 5vw 5vw;
+    border-left: 1 px solid;
+}
+section.regional img{
+    text-align: center;
+}
+footer{
+    background-color: grey;
+}
